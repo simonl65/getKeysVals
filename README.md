@@ -55,7 +55,7 @@ const nodes = [
 ```
 
 ## Example usage
-Let's return those nodes which have values for **id**, **text** _and_ **filePath**.
+Let's return those nodes which have values for `id`, `text` _and_ `filePath`.
 ```javascript
 getKeysVals(nodes[0].nodes, ['id', 'text', 'filePath'], 'nodes');
 ```
