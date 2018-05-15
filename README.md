@@ -12,7 +12,7 @@ This function will return an array of objects containing the specified keys and 
 
 <i><b>**</b> All keys must have values if any of them are to be returned.</i>
 
-Say you have the following nested object (this one's for use with [Bootstrap-TreeView](https://github.com/jonmiles/bootstrap-treeview)) and you want to extract all the ids and their respective filePaths - that's what getKeysVals is for:
+Say you have the following nested object (this one's for use with [Bootstrap-TreeView](https://github.com/jonmiles/bootstrap-treeview)) and you want to extract (say) all the `ids` and their respective `filePaths` - that's what getKeysVals is for:
 ```javascript
 const nodes = [
   {
